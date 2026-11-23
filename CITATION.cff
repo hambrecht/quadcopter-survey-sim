@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this code or its outputs, please cite it as below."
+title: "Quadcopter survey simulations: code and outputs for 'When is a quadcopter the right tool for wildlife surveys? A simulation of survey performance across designs and population densities'"
+type: software
+authors:
+  - family-names: Hambrecht
+    given-names: Leonard
+    orcid: "https://orcid.org/0000-0002-3846-4017"
+  - family-names: Airst
+    given-names: Jason
+    orcid: "https://orcid.org/0000-0001-6963-7390"
+  - family-names: Stenhouse
+    given-names: Gord
+    orcid: "https://orcid.org/0000-0001-9907-4912"
+  - family-names: Coops
+    given-names: Nicholas C.
+    orcid: "https://orcid.org/0000-0002-0151-9037"
+  - family-names: DeWitt
+    given-names: Philip
+    orcid: "https://orcid.org/0000-0002-2031-6753"
+repository-code: "https://github.com/hambrecht/quadcopter-survey-sim"
+license: MIT
+version: 1.0.0
+keywords:
+  - distance sampling
+  - drone survey
+  - simulation
+  - survey design
+references:
+  - type: software
+    title: "dsims (fork used for these simulations)"
+    url: "https://github.com/hambrecht/dsims"
+    commit: 281ed86337bf3d3959a68e02e5a3234bb821f1f8
+    license: GPL-2.0-or-later

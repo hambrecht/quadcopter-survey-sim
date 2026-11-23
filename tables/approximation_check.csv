@@ -1,0 +1,3 @@
+"approximation","n_scenarios","max_rel_deviation","median_rel_deviation"
+"cv_binomial",80,0.0822876998576518,0.0158051814610488
+"cv_poisson",80,5.1504214156904,0.186088436277742

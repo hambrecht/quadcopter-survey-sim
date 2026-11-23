@@ -1,0 +1,22 @@
+# R / renv
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+renv/local/
+renv/staging/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/sandbox/
+
+# test runs (e.g. --out=output_test); output/ itself is part of the repository
+output_*/
+
+# Python
+__pycache__/
+.venv/
+
+# OS / editor
+.DS_Store
+.vscode/

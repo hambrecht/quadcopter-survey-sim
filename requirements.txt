@@ -1,0 +1,5 @@
+# Python 3.14.3 was used; any recent Python 3 should work.
+numpy==2.4.6
+pandas==3.0.3
+matplotlib==3.10.9
+pillow==12.2.0

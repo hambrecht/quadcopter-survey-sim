@@ -1,0 +1,10 @@
+Notes to Table 2:
+- Each cell gives the smallest number of 2 x 2 km blocks that meets empirical CV <= 0.15 and abs(mean bias) <= 10% at both densities of the class (individuals per 1,000 km^2), with the total transect length in brackets (one block = one survey day). 65% and 10% overlap use the 0% overlap estimates with their own effort.
+- Gimbal scenarios with fewer than 20 detections on average are not reliably estimable (a half-normal detection function cannot be fitted reliably from so few distances; Buckland et al. 2015 recommend 60-80) and never count as meeting the criteria. The nadir designs use a uniform key (count / covered area) and are not flagged.
+- Scenarios with an empirical CV within 0.01 of 0.15 (exact CV):
+  - 0% overlap, 9 blocks, 800: CV = 0.155, mean bias = +0.7% (does not meet the criteria)
+  - 0% overlap, 9 blocks, 900: CV = 0.143, mean bias = -0.3% (meets the criteria)
+  - 0% overlap, 16 blocks, 300: CV = 0.141, mean bias = -0.2% (meets the criteria)
+  - 200 m, 25 blocks, 800: CV = 0.148, mean bias = +0.2% (meets the criteria)
+  - 200 m, 25 blocks, 900: CV = 0.143, mean bias = -0.4% (meets the criteria)
+  - Gimbal, 25 blocks, 900: CV = 0.157, mean bias = +1.1% (does not meet the criteria)
